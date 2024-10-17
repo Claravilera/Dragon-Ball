@@ -12,8 +12,8 @@ let container = document.getElementById("container")
         characters.forEach(element => {
             container.innerHTML+=`
 
-           <div class="image" style="width: 18rem;">
-                <img src="${element.image}" class="image" alt="image characters">
+           <div class="image-characters" style="width: 18rem;">
+                <img src="${element.image}" class="image" alt="image-characters">
             <div class="name">
                 <h5 class="card-name">${element.name}</h5>
                 <h7 class="card-name">${element.race}</h7>

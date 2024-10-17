@@ -12,8 +12,8 @@ async function getPlanets(){
         planets.forEach(element => {
             containerPlanets.innerHTML+=`
 
-           <div class="image" style="width: 18rem;">
-                <img src="${element.image}" class="image" alt="image characters">
+           <div class="image-planets" style="width: 18rem;">
+                <img src="${element.image}" class="image" alt="image-planets">
             <div class="name">
                 <h5 class="card-name">${element.name}</h5>
            </div>
